@@ -16,7 +16,7 @@ public class Client {
 
             Socket clientSocket = new Socket("10.16.173.86", 5775);  //enter IP and port of destination server.
 
-            System.out.println("Local SocketAddress is: " + clientSocket.getLocalSocketAddress());
+            //System.out.println("Local SocketAddress is: " + clientSocket.getLocalSocketAddress());
             System.out.print("Enter text:");
 
             DataOutputStream outToServer = new DataOutputStream(clientSocket.getOutputStream());
