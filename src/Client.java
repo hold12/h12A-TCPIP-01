@@ -14,7 +14,7 @@ public class Client {
         while(true){
             BufferedReader inFromUser = new BufferedReader(new InputStreamReader(System.in));
 
-            Socket clientSocket = new Socket("10.16.173.86", 5775);
+            Socket clientSocket = new Socket("10.16.173.86", 5775);  //enter IP and port of destination server.
 
             System.out.println("Local SocketAddress is: " + clientSocket.getLocalSocketAddress());
             System.out.print("Enter text:");
